@@ -1,0 +1,16 @@
+{
+    "name": "convert-image-tool",
+    "type": "module",
+    "version": "1.0.0",
+    "scripts": {
+      "convert": "node convertImage.mjs -i ./inputs -o ./outputs -w"
+    },
+    "devDependencies": {
+      "commander": "^11.0.0",
+      "fs-extra": "^11.2.0",
+      "glob": "^10.3.10",
+      "sharp": "^0.33.2",
+      "svgo": "^3.2.0"
+    }
+  }
+  
